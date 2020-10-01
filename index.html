@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ぽぽたんblog</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+ <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+
+  </head>
+  <body>
+    <header>
+     <h1 class="title">ぽぽたんBLOG</h1>
+    </header>
+    <div id="app">
+    <div class="main">
+
+     <router-view></router-view>
+
+
+
+
+    </div>
+
+
+
+    <div class="sub">
+      <i class="fas fa-bullseye"></i><router-link class="btn" to="/">Top</router-link>
+        <div class="project" >
+          <nav>
+            <ul>
+            <router-link tag="li" class="btn" to="/7-4"><a>7/4</a></router-link>
+            <router-link tag="li" class="btn" to="/7-11"><a>7/11</a></router-link>
+            <router-link tag="li" class="btn" to="/7-18"><a>7/18</a></router-link>
+            <router-link tag="li" class="btn" to="/7-23"><a>7/23-25</a></router-link>
+            <router-link tag="li" class="btn" to="/8-2"><a>8/2</a></router-link>
+            <router-link tag="li" class="btn" to="/9-26"><a>9/23</a></router-link>
+          </ul>
+        </nav>
+
+      </div>
+
+    </div>
+  </div>
+
+
+  　<script src="app.js">　</script>
+  </body>
+</html>
