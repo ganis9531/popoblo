@@ -1,3 +1,4 @@
+
 const Mainpage = {template:`
   <div>
   <div class="midasi">
@@ -292,6 +293,49 @@ const Zyuusan = {
 </div>
   `
 };
+
+
+const Zyuuzyuu = {
+  template:`
+
+  <div>
+      <div class="midasi">
+        <h2>ぽんちゃんとの素敵な日常です('ω')</h2>
+    　</div>
+      <div class="cocontents">
+        <h3>October 10</h3>
+        <h4>勉強したyo</h4>
+        <p　class="sentence">私事ですが、この度、退職を決意いたしました！！！<br>
+        冬のボーナスをもらうまでは続けようと考えていましたが、他にやりたいことが<br>
+        ある中で、無駄な時間を過ごすことに限界を感じ、代行サービスを使い退職します！<br>
+        不安だらけですが、行動しないと生きていけない環境でこそ得られるものを信じ、<br>
+        前進していくんご！！！<br>
+<br><br>
+        ということでぽんちゃんとのデートですが、試験も近いということで共に勉強しました( ^ω^ )<br>
+        と言いつつ、集合してからまずZARAに行ってお買い物をしました！<br>
+        ぽんちゃんの試着したり、悩んでいる中、<br>
+        私は抜け出して、Clefy、ユニクロ、ヤマダ電機、ジュンク堂をまわっていました( ^ω^ )<br>
+        書庫のようになっているジュンク堂の5階に住みたいなあと思っていると、<br>
+        ぽんちゃんからの連絡があり、合流できました！<br>
+        いい買い物ができたようで、よかったです( ^ω^ )<br>
+        今度の旅行はわいの押しブランド『フレッドペリー』でペアルックがしたいと思い、<br>
+        見に行ったのですが、思いの外、絶賛していただいて<br>
+        ぽんちゃんは今にも購入しそうな勢いでノリノリで財布の紐がゆるゆるでした( ^ω^ )<br>
+        今度はアウトレットにいって絶対に完璧なペアルックを揃えにいきたいです💪🏻( ¨̮ 💪🏻)<br>
+        仕事を辞めると聞いてきっとぽんちゃんはよく思わなかったでしょう。<br>
+        それでも応援してるとゆってくれる最高のぽんちゃんでした(⍢)<br>
+        本当に心の支えです(⍢)<br>
+<br><br>
+        <br>
+        明るい未来を自分の努力で作るんご💪🏻( ¨̮ 💪🏻)
+
+    </p>
+      </div>
+</div>
+  `
+};
+
+
 const routes =[
   { path: '/',component:Mainpage },
   {path:'/7-4',component:Nanayon},
@@ -300,7 +344,8 @@ const routes =[
   {path:'/7-23',component:Nananisan},
   {path:'/8-2',component:Hatini},
   {path:'/9-26',component:Kyuuniroku},
-  {path:'/10-3',component:Zyuusan}
+  {path:'/10-3',component:Zyuusan},
+  {path:'/10-10',component:Zyuuzyuu}
 ];
 
 const router = new VueRouter({
